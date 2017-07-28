@@ -13,16 +13,16 @@
     require_once "func.php";
     require_once "ArrayList.php";
 
-    //
+    //Перше завдання
     $text1='Hello';
     $text2=' World';
     echo $text1 . $text2 . "\n";
 
-    //
+    // Друге завдання
     $var = "hello";
     echo "{$var[0]} $var[1] {$var[strlen($var) - 1]}\n";
 
-    //
+    // Третє завдання
     function check($a)
     {
         if ($a > 0 && $a < 5) {
@@ -36,7 +36,7 @@
     check(-3);
     check(2);
 
-    //
+    // Четверте завдання
     $min = random_int(0, 59);
     echo $min;
 
@@ -51,7 +51,7 @@
     }
     echo "\n";
 
-    //
+    // П'яте завдання
     $year = 2021;
 
     if ($year % 4 === 0 && $year % 100 !== 0){
@@ -61,7 +61,7 @@
     }
     echo "\n";
 
-    //
+    // Шосте завдання
     $num = 385934;
     checkSum($num);
     echo "\n";
@@ -85,7 +85,7 @@
         return $sum;
     }
 
-    //
+    // Бонусне завдання
     compareSum("AD", "BC");
     compareSum("AD","DD" );
     compareSum("gf","FG" );
